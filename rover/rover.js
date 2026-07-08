@@ -1,16 +1,14 @@
 export class Rover {
-  #x;
-  #y;
+  #position;
   #direction;
 
-  constructor(x, y, direction) {
-    this.#x = x;
-    this.#y = y;
+  constructor(position, direction) {
+    this.#position = position;
     this.#direction = direction;
   }
 
   get position() {
-    return { x: this.#x, y: this.#y };
+    return this.#position;
   }
 
   get direction() {
