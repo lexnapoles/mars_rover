@@ -2,9 +2,9 @@ export class Rover {
   #x;
   #y;
 
-  constructor() {
-    this.#x = 2;
-    this.#y = 3;
+  constructor(x, y) {
+    this.#x = x;
+    this.#y = y;
   }
 
   get position() {
