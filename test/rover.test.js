@@ -1,5 +1,5 @@
 import assert from "assert";
-import { Rover } from "./rover.js";
+import { Rover } from "../rover/rover.js";
 
 describe("Mars rover", () => {
   it("should initialise the rover at a given position", () => {
